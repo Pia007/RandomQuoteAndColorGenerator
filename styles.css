@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+:root {
+  --viaoda: 'Viaoda Libre', cursive;
+  --border: hsla(125, 30%, 55%, 0.4);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.card {
+  max-width: 43.75em;
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: .9375rem double var(--border);
+  border-radius: .9375rem;
+}
+.card-body {
+  padding: 3rem;
+}
+blockquote {
+  display: flex;
+  flex-direction: column;
+}
+blockquote span {
+  font-size: 2.25rem;
+}
+footer {
+  margin-top: 1.2rem;
+}
+p {
+  float: right;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+#tweet-quote {
+  float: left;
+  padding: .375rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 2.1875rem;
+  cursor: pointer;
+}
+a {
+  border-radius: .675rem;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.fa-twitter {
+  color: black;
+}
+#new-quote {
+    float: right;
+    cursor: pointer;
+    border: none;
+    border-radius: .675rem;
+    width: auto;
+    height: 2.375rem;
+    font-size: 1.25rem;
+    padding: .375rem;
+}
+
+/* max width  475px*/
+@media screen and (max-width: 29.6875em) {
+    .card {
+        max-width: 40rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #text {
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    p {
+        float: none;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .buttons {
+        float: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    #new-quote {
+
+        width: 100%;
+    }
+    .link {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 1rem; 
+    }
+}
+  

@@ -1,0 +1,51 @@
+Random Quote & Background Color Generator
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The Project](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The Project
+
+Random Quote & Background Color Generator
+
+This is a Random Quote Generator with the added feature of generating a background color and applying that color to other elements.  The quotes were fetched from the [Quotable API](https://github.com/lukePeavey/)quotable. The page loads with a random color theme and on each button click a new quote and its author is genrated and the font and buttons display the same random color.  The hexidecimal colors are randomly generated with over 16 million possible combinations.  
+
+### Links
+
+- Solution URL: [GitHub Repository](https://your-solution-url.com)
+- Live Site URL: [Random Quote Generator](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Quotable API
+- CSS custom properties
+- Flexbox
+- Responsive Design
+- Document Object Model
+- JavaScript
+
+### What I learned
+
+I worked primarily with Javascript which is an ongoing learning process.  Accessing and fetching data from an API is an area of opportunity to engage in an aspect of coding that I had not attempted before.  I am looking forward to continuing this journey.
+
+### Continued development
+
+This project will continued to be developed with other libraries and frameworks.
+
+## Author
+
+- LinkedIn - [Pia Torain](https://www.linkedin.com/in/pia-torain-dev)
+- Twitter - [@FeenixRizn](https://www.twitter.com/)

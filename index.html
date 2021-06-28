@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author"  content="Pia Torain">
+    <meta name="description"  content="A random quote generator.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9794dd2b19.js" crossorigin="anonymous"></script>
+    <title>Random Quote Generator | Pia Torain</title>
+</head>
+<body>
+    <div  id="wrapper" class="card">
+        <div id="quote-box" class="card-body">
+            <blockquote class="blockquote">
+            <span id="text"></span>
+            <div>
+                <em><p id ="author" title="Source Title"></p></em>
+            </div>
+            <footer class="blockquote-footer">
+                <div class="buttons">
+                    <div class="link">
+                        <a
+                            class="button"
+                            id="tweet-quote"
+                            href="https://twitter.com/intent/tweet"
+                            title="Tweet this quote!"
+                            target="_top"
+                            alt="Twitter Link"
+                        >
+                            <i id="twitter" class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                    <button onclick ="colorChange()" id="new-quote" class="new">New Quote</button>
+                </div>
+            </footer>
+            </blockquote>
+        </div>
+    </div>
+
+<script src="main.js"></script>  
+</body>
+</html>
