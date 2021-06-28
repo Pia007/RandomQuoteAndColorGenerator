@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Color Change when page loads
     function colorChange() {
       let newColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-          document.body.style.backgroundColor = newColor;
-          document.getElementById("text").style.color = newColor;
-          document.getElementById("author").style.color = newColor;
-          document.getElementById("tweet-quote").style.backgroundColor = newColor;
-          document.getElementById("twitter").style.color = "white";
-          button.style.backgroundColor = newColor;
-          button.style.color = "white";
+        document.body.style.backgroundColor = newColor;
+        document.getElementById("text").style.color = newColor;
+        document.getElementById("author").style.color = newColor;
+        document.getElementById("tweet-quote").style.backgroundColor = newColor;
+        document.getElementById("twitter").style.color = "white";
+        button.style.backgroundColor = newColor;
+        button.style.color = "white";
     }
     setTimeout(colorChange, .1);
   
@@ -44,14 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
 // colorChange is called when button is clicked
 function colorChange() {
     let newColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-    document.body.style.backgroundColor = newColor;
-    document.getElementById("text").style.color = newColor;
-    document.getElementById("author").style.color = newColor;
-    document.getElementById("tweet-quote").style.backgroundColor = newColor;
-    document.getElementById("tweet-quote").style.color = "white";
-    document.getElementById("new-quote").style.backgroundColor = newColor;
-    document.getElementById("new-quote").style.color = "white";
-    document.getElementById("twitter").style.color = "white";
+      document.body.style.backgroundColor = newColor;
+      document.getElementById("text").style.color = newColor;
+      document.getElementById("author").style.color = newColor;
+      document.getElementById("tweet-quote").style.backgroundColor = newColor;
+      document.getElementById("tweet-quote").style.color = "white";
+      document.getElementById("new-quote").style.backgroundColor = newColor;
+      document.getElementById("new-quote").style.color = "white";
+      document.getElementById("twitter").style.color = "white";
 };
 
 
