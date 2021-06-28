@@ -22,8 +22,8 @@ This is a Random Quote Generator with the added feature of generating a backgrou
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://your-solution-url.com)
-- Live Site URL: [Random Quote Generator](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/Pia007/RandomQuoteAndColorGenerator)
+- Live Site URL: [Random Quote and Color Generator](https://pia007.github.io/RandomQuoteAndColorGenerator/)
 
 ## My process
 
