@@ -21,6 +21,7 @@ body {
   max-width: 43.75em;
   width: 100%;
   height: auto;
+  margin: 2rem auto;
   background: white;
   display: flex;
   flex-direction: column;
@@ -36,6 +37,7 @@ blockquote {
 }
 blockquote span {
   font-size: 2.25rem;
+  font-weight: 600;
 }
 footer {
   margin-top: 1.2rem;
@@ -63,51 +65,53 @@ a {
   color: black;
 }
 #new-quote {
-    float: right;
-    cursor: pointer;
-    border: none;
-    border-radius: .675rem;
-    width: auto;
-    height: 2.375rem;
-    font-size: 1.25rem;
-    padding: .375rem;
+  float: right;
+  cursor: pointer;
+  border: none;
+  border-radius: .675rem;
+  width: auto;
+  height: 2.375rem;
+  font-size: 1.25rem;
+  padding: .375rem;
 }
 
 /* max width  475px*/
 @media screen and (max-width: 29.6875em) {
-    .card {
-        max-width: 40rem;
-        width: 80%;
-        margin: 0 auto;
-    }
-    #text {
-        text-align: center;
-        font-size: 1.75rem;
-    }
-    p {
-        float: none;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .buttons {
-        float: none;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    #new-quote {
-
-        width: 100%;
-    }
-    .link {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 0;
-        margin-bottom: 1rem; 
-    }
+  .card {
+    max-width: 40rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .card-body {
+    padding: 1.5rem 1rem;
+  }
+  #text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  p {
+    float: none;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .buttons {
+    float: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  #new-quote {
+    width: 100%;
+  }
+  .link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1rem; 
+  }
 }
   
