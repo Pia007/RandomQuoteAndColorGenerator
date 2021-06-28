@@ -18,7 +18,7 @@ Random Quote & Background Color Generator
 
 Random Quote & Background Color Generator
 
-This is a Random Quote Generator with the added feature of generating a background color and applying that color to other elements.  The quotes were fetched from the [Quotable API](https://github.com/lukePeavey/)quotable. The page loads with a random color theme and on each button click a new quote and its author is genrated and the font and buttons display the same random color.  The hexidecimal colors are randomly generated with over 16 million possible combinations.  
+This is a Random Quote Generator with the added feature of generating a background color and applying that color to other elements.  The quotes were fetched from the [Quotable API](https://github.com/lukePeavey/). The page loads with a random color theme and on each button click a new quote and its author is genrated and the font and buttons display the same random color.  The hexidecimal colors are randomly generated with over 16 million possible combinations.  
 
 ### Links
 
