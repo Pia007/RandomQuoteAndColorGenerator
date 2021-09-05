@@ -45,7 +45,7 @@ This is a Random Quote Generator with the added feature of generating a backgrou
 <details>
   <summary>Language Statistics: </summary>
   <p align="left">
-    <img src="https://wakatime.com/share/@Pia007/8a4f40b9-19b3-4d68-b986-2b646e8c6cdf.svg" height=400 alt="repo stats"/>
+    <embed src="https://wakatime.com/share/@Pia007/8a4f40b9-19b3-4d68-b986-2b646e8c6cdf.svg" height=400 alt="repo stats"></embed>
   </p>
   
 </details>
