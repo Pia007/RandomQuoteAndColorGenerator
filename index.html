@@ -11,15 +11,25 @@
     <title>Random Quote Generator | Pia Torain</title>
 </head>
 <body>
+    <!-- Dashboard -->
     <div  id="wrapper" class="card">
         <div id="quote-box" class="card-body">
             <blockquote class="blockquote">
+
+            <!-- quote will populate here -->
             <span id="text"></span>
+            <!-- /quote will populate here -->
+
+            <!-- Author -->
             <div>
                 <em><p id ="author" title="Source Title"></p></em>
             </div>
+            <!-- /Author -->
+
+            <!-- Footer  -->
             <footer class="blockquote-footer">
                 <div class="buttons">
+                    <!-- Twitter link -->
                     <div class="link">
                         <a
                             class="button"
@@ -32,12 +42,18 @@
                             <i id="twitter" class="fa fa-twitter"></i>
                         </a>
                     </div>
+                    <!-- /Twitter link -->
+                    
+                    <!-- Call a new Quote -->
                     <button onclick ="colorChange()" id="new-quote" class="new">New Quote</button>
+                    <!-- /Call a new Quote -->
                 </div>
             </footer>
+            <!-- /Footer -->
             </blockquote>
         </div>
     </div>
+    <!-- /Dashboard -->
 
 <script src="main.js"></script>  
 </body>

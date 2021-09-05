@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   setTimeout(colorChange, .1);
 
-  
+  // Connecting to Quotable API
   async function nextRandomQuote() {
     // Random quote
     const reply = await fetch("https://api.quotable.io/random");

@@ -4,9 +4,12 @@
   --viaoda: 'Viaoda Libre', cursive;
   --border: hsla(125, 30%, 55%, 0.4);
 }
-* {
+*,
+html,
+body {
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 body {
   height: 100vh;
@@ -77,10 +80,14 @@ a {
 
 /* max width  475px*/
 @media screen and (max-width: 29.6875em) {
+  html,
+  body {
+    width: 100%;
+  }
   .card {
     max-width: 40rem;
-    width: 90%;
-    margin: 0 auto;
+    width: 85%;
+    margin: 0 1rem;
   }
   .card-body {
     padding: 1.5rem 1rem;
